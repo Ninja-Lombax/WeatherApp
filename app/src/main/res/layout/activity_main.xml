@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Latitude Here"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:numeric="integer|signed|decimal" />
+
+    <EditText
+        android:id="@+id/txtLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Longitude Here"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:numeric="integer|signed|decimal" />
+
+    <Button
+        android:id="@+id/btnHit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hit" />
+
+    <TextView
+        android:id="@+id/tvjsonItem"
+        android:layout_width="720dp"
+        android:layout_height="1311dp"
+        android:textAlignment="viewStart"
+        android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_browse_fragment"
+        android:name="net.androidbootcamp.weatherapp.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        tools:deviceIds="tv"
+        tools:ignore="MergeRootFrame"
+        tools:layout="@layout/lb_list_row_hovercard" />-->
